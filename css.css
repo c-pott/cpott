@@ -17,3 +17,9 @@ h1, h2, p{
     Verdana, sans-serif;
     color: white;
     text-align: center}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
