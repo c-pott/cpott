@@ -1,19 +1,20 @@
 html, body{
     height: 100%;
 }
-
+img.align-right{
+    float: right;
+    margin-left: 10px;
+}
 html {
-    display: table;
-    margin: auto;
     background-color: #242323;
 }
 
 body {
     display: table-cell;
-    vertical-align: middle;
 }
-h1, h2, p{ 
+body, h1, ul, ol{ 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
     Verdana, sans-serif;
     color: white;
-    text-align: center}
+
+}

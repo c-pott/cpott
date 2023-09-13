@@ -1,5 +1,6 @@
 {
-    "git.enabled": true,
+    "git.enabled": false,
     "git.autoRepositoryDetection": false,
-    "git.autorefresh": true
+    "git.autorefresh": true,
+    "git.enableStatusBarSync": false
 }
