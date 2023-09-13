@@ -1,0 +1,20 @@
+html, body{
+    height: 100%;
+}
+img.align-right{
+    float: right;
+    margin-left: 10px;
+}
+html {
+    background-color: #242323;
+}
+
+body {
+    display: table-cell;
+}
+body, h1, ul, ol{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    Verdana, sans-serif;
+    color: white;
+
+}
