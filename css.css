@@ -13,7 +13,7 @@ body {
     vertical-align: middle;
 }
 h1, h2, p, sub{ 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
+    font-family: 'JetBrains Mono'
     Verdana, sans-serif;
     color: white;
     text-align: center} 
