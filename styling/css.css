@@ -6,6 +6,20 @@ html  {
     margin: auto;
     background-color: #3b3b3b;
 }
+
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'JetBrains Mono';
+    font-weight: 700;
+}
+h1, h2, p, sub{ 
+    font-family: 'JetBrains Mono';
+    font-weight: 400;
+    color: white;
+    text-align: center} 
+
     @font-face {
         font-family: 'JetBrains Mono';
         src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
@@ -77,16 +91,3 @@ html  {
         font-style: normal;
         font-display: swap;
 }
-
-
-body {
-    display: table-cell;
-    vertical-align: middle;
-    font-family: 'JetBrains Mono';
-    font-weight: 700;
-}
-h1, h2, p, sub{ 
-    font-family: 'JetBrains Mono';
-    font-weight: 400;
-    color: white;
-    text-align: center} 
