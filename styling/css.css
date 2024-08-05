@@ -11,8 +11,7 @@ html  {
 body {
     display: table-cell;
     vertical-align: middle;
-    font-family: 'JetBrains Mono';
-    font-weight: 700;
+    
 }
 h1, h2, p, sub{ 
     font-family: 'JetBrains Mono';
