@@ -5,7 +5,10 @@ html  {
     display: table;
     margin: auto;
     background-color: #3b3b3b;
-
+@font-face {
+    font-family: JetBrains Mono;
+    src: url(https://fonts.googleapis.com/css?family=JetBrains Mono );
+}
 }
 
 body {

@@ -13,8 +13,7 @@ body {
     display: table-cell;
 }
 body, h1, ul, ol, sub{ 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 
-    Verdana, sans-serif;
+    font-family: 'JetBrains Mono';
     color: white;
 
 }
