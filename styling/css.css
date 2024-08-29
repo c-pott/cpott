@@ -13,11 +13,12 @@ body {
     vertical-align: middle;
     
 }
-h1, h2, p, sub{ 
+body { 
     font-family: 'JetBrains Mono';
     font-weight: 400;
     color: white;
-    text-align: center} 
+    text-align: center
+}
 
     @font-face {
         font-family: 'JetBrains Mono';
