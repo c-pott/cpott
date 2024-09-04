@@ -9,7 +9,7 @@ html {
     background-color: #595959;
 }
 
-body {
+body{ 
     display: table-cell;
 }
 body, h1, ul, ol, sub{ 
