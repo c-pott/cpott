@@ -20,7 +20,10 @@ body, ul, ol{
   border: 5px solid;
   margin: auto;
   width: 75%;
-  padding: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 @font-face {
