@@ -12,12 +12,15 @@ body, ul, ol{
     font-size: 20;
     color: white;
     text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
+
 .center{
   border: 5px solid;
   margin: auto;
-  width: 75%;
-  padding: 50px;
+  width: 25%;
+  padding: 140px;
 }
 
 @font-face {
