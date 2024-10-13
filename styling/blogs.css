@@ -6,7 +6,7 @@ html{
     background-color: #595959;
 }
 
-body, ul, ol{ 
+body, ul{ 
     font-family: 'JetBrains Mono';
     font-weight: 400;
     font-size: 20;
@@ -18,12 +18,15 @@ body, ul, ol{
 
 .center{
   border: 5px solid;
-  margin: auto;
-  width: 75%;
+  margin: 0;
+  width: 800px;
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 25px;
   padding-bottom: 25px;
+}
+.left{
+  text-align: left;
 }
 
 @font-face {
