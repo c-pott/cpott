@@ -19,8 +19,8 @@ body, ul, ol{
 .center{
   border: 5px solid;
   margin: auto;
-  width: 25%;
-  padding: 140px;
+  width: 75%;
+  padding: 200px;
 }
 
 @font-face {
