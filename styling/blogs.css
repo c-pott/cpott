@@ -19,8 +19,8 @@ body, ul{
 .center{
   border: 5px solid;
   margin: 10px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 100px;
+  padding-right:100px;
   padding-top: 25px;
   padding-bottom: 25px;
 }
