@@ -31,7 +31,7 @@
                  Server, Debian with Linux Mint & Kali Linux, and Arch with 
                  anjaro and NixOS. These are all very well known in the Linux 
                  community, and I am not listing roughly 95% of all other linux 
-                 distributions. Click<a href="(https://distrowatch.com/dwres.php?resource=family-tree)"> here</a> for a full distro 
+                 distributions. Click<a href="https://distrowatch.com/dwres.php?resource=family-tree">here</a> for a full distro 
                  family tree if you’re interested. So with all of this in mind – there is 
                  certainly a Linux distro for everyone. Determining which one is the hardest 
                  part. Want to transition smoothly from Windows? Use Mint or Ubuntu. Want a 
@@ -40,11 +40,138 @@
                  based distro. 
             </p>
         </div>
-            
+        <h1>Why I choose Linux</h1>
+        <div class='center'>
+            <p>
+                The last sentence of the previous section. No bloat. As someone 
+                who has spent the majority of my life using Windows systems I am 
+                saddened to see the amount of bloatware and feature heavy slop that
+                 Microsoft has pushed onto their paying customers. I could care 
+                 less about having a news widget on my desktop or an AI assistant 
+                 in my taskbar. The amount of garbage that comes with a vanilla 
+                 Windows system is also extremely resource consuming. There is 
+                 zero reason why a fresh install of Windows with no third party 
+                 applications installed should take upwards of 40% of my computers 
+                 memory at idle. Another major reason is the customization that is 
+                 available with Linux. You can make your operating system, yours. 
+                 If I want a wallpaper switcher that cycles through 150 images I 
+                 have saved with the click of two buttons, I can do that on Linux. 
+                 If I want to customize my taskbar with various theming based on 
+                 these images, I can also do that. You can essentially build Linux 
+                 from the ground up as much as you want based on the distribution 
+                 that you chose. And the best part, it’s all free and open-sourced 
+                 software. Sure a lot of Windows applications do not have direct 
+                 Linux support (Office apps, Photoshop, Spotify, etc.) But there 
+                 are alternatives and workarounds for all of these thanks to the 
+                 OS being open-source. I personally wanted a system that aligned 
+                 with all of these reasons that was also minimal to keep me from 
+                 distraction, therefore I landed on an Arch based system.
+            </p>
+        </div>
+        <h1>I use Arch, btw</h1>
+        <div class='center'>
+            <p>
+                Arch Linux was created in 2002 and has followed a rolling release 
+                update model ever since. What is a rolling release? Almost every 
+                single day there are new updates being made to Arch in small 
+                increments at time. Instead of complete system overhauls and 
+                redesigns Arch updates bit by bit very frequently. This is great 
+                from a software perspective because this means there is constant 
+                support for the system and fixes are addressed very quickly. Arch 
+                is known as the most minimal and least invasive Linux distro 
+                around. It’s not recommended for beginner users looking to 
+                transition smoothly from Windows into Linux because of the manual 
+                intervention that is needed for installation and system 
+                maintanence, however if you’re someone who wants complete 
+                customization and control over how your system functions – then 
+                Arch is the way to go. As I mentioned before, I want a minimal 
+                system that will keep distractions away from me at all cost. The 
+                UI for iPhones is designed to keep your attention on the screen 
+                for as long as possible, doom scrolling app to app to keep you 
+                engaged for as long as possible. My iPhone is also designed 
+                minimally to limit distraction. I want my computer to be the same 
+                way. Computers are literally a cheat code in terms of knowledge 
+                and power that they supply to the human brain. No other time in 
+                history has information been so easily available to us with a few 
+                clicks and key presses. My own self interests include learning as 
+                much as possible before I exit this world (hopefully later than 
+                sooner). I want to read as much as I can, watch as many movies as I 
+                can, research as many topics as I can. I have a few applications on 
+                my home computer such as Obsidian that allow for this, but the 
+                overall platform needs to fit this requirement also to be a complete 
+                and well rounded system for self productivity. 
+                
+                <br><br>
+                TLDR: Arch aligns with my philosophy on life and it’s awesome.
+            </p>
+        </div>
+        <h1>What is a tiling window manager? What’s Hyprland?</h1>
+        <div class='center'>
+            <p>
+                Tiling window managers. They’re not very well known to the average 
+                computer user. Many of us understand that computers can be 
+                interacted with mainly by using the mouse to point and click, 
+                drag and drop, etc. If you’re like me, you like to have multiple 
+                tabs and windows open at one time on one monitor. Typically the 
+                side by side view of windows is my go to for work and productivity.
+                If this is also your preferred window layout, you understand that 
+                it can sometimes be annoying to organize them with the overlap, 
+                sizing, and selection by having to click the window you want to 
+                work within. A tiling window manager automates every bit of this 
+                for you. The best part? No mouse is even needed. All of the 
+                switiching and sizing can be done with keybinds you set within 
+                your systems config files. There are a few tiling window managers 
+                that are used by Linux users such as the old i3, the not as old 
+                bspwm (I used to use this), and the new kid on the block; 
+                Hyprland. Hyprland is built using the newer display server 
+                protocol Wayland. The older but still reliable option is Xorg, 
+                which is largely used in normal DEs (Desktop Environments) such 
+                as KDE Plasma. Arch allows you to use both of these and choose 
+                which display server you want to use at start up, but I mainly 
+                use Wayland with Hyprland so that’s what we’ll focus on for now. 
+                Hyprland is a dynamic tiling window manager for Linux that is 
+                absolutely gorgeous. The configuration uses a .config file format
+                that is stupidly easy to follow and customize. The integration 
+                of other modules that don’t come stock with Hyprland are 
+                typically composed of .config files, JSON, some CSS for colors, 
+                and shell scripting to have them all interact smoothly with one 
+                another. If you watch the demonstration below, the taskbar is a 
+                great example of all of this. The bar itself is created using a 
+                JSON file, declaring the various modules (L to R: Workspaces, 
+                Now Playing, Current Window, VPN, Internet, Volume, Time). A CSS 
+                file is used to declare all of the colors for the background of 
+                the bar and text color. Some scripting is needed to pull in the 
+                info for certain modules such as the Now Playing and VPN ones. 
+                Using scripting you can display the current song/video that’s 
+                playing and the current VPN location. Finally, the bar is set to
+                execute at startup within the main Hyprland .config file. 
+                Simple enough, right? I’m barely scratching the surface in terms
+                of the customization that Hyprland allows for. To see a 
+                sickening amount of aesthetically pleasing Hyprland 
+                configurations, check out r/unixporn. Many of the posts will 
+                have a linked github page with the users dot files, showing 
+                how they created their setup and even allowing you to take 
+                pieces of their build to use in your own configuration. 
+            </p>
+        </div>
+            <h1>Conclusion</h1>
+        <div class='center'>
+            <p>
+                I love my computer. I feel more productive than ever with this 
+                operating system and I feel free knowing that I can fix it to my 
+                liking however and whenever I want. With that being said, it is a 
+                very sharp double edged sword. Any change or new update could 
+                brick your system and require you to deep dive in reddit and arch 
+                forums for hours in an attempt to find out why your NVIDIA drivers 
+                will no longer update. But at the end of the day you will be far 
+                more in tune and familiar with your system than any windows 
+                plebeian could ever dream of.
+            </p>
+        </div>
             
             <p>
                 <sub><i>last updated 8/5/2024</i></sub>
-            
+                <br><br>
                 <a href ="/index.html"> <i>Home</i> </a>
             </p>
         </body>
